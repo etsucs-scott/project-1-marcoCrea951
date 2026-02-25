@@ -18,23 +18,23 @@ You may use **Visual Studio**, **VS Code**, or the **terminal**.
 
 ### Create a solution
 ```bash
-dotnet new sln -n ProjectName
+dotnet new sln -n AdventureGame
 ```
 
 ### Create a project (example: console app)
 ```bash
-dotnet new console -n ProjectName.App
+dotnet new console -n AdventureGame.App
 ```
 
 ### Add the project to the solution
 ```bash
-dotnet sln add ProjectName.App
+dotnet sln add AdventureGame.App
 ```
 
 ### Build and run
 ```bash
 dotnet build
-dotnet run --project ProjectName.App
+dotnet run --project AdventureGame.App
 ```
 
 ## Notes
